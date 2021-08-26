@@ -9,4 +9,12 @@ export class HomePage {
 
   constructor() {}
 
+  rut:String = ""; /* nombre de variable : luego el tipo = "el valor" */
+  nombreCompleto:String = "";
+  edad:BigInteger;
+
+  /* metodo */
+  cambiarDatos(){
+    alert('pincho boton'+this.rut);
+  }
 }
